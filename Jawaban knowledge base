@@ -1,0 +1,20 @@
+1. Rest API: REST (Representational State Transfer) API adalah protokol yang digunakan untuk komunikasi antara client dan server melalui HTTP. 
+Ini seperti sistem pengiriman data yang menggunakan metode GET, POST, PUT, dan DELETE untuk menangani data. 
+Biasanya, data tersebut dikirim dalam format JSON, yang mudah dibaca oleh mesin dan manusia.
+
+2. Server side and Client side processing: Di web development, server-side processing melibatkan segala sesuatu yang berjalan di server, 
+seperti query database dan routing. Sedangkan client-side processing terjadi di browser pengguna, termasuk JavaScript dan rendering halaman web.
+
+3. Monolith dan Microservices: Monolith adalah aplikasi sebagai satu kesatuan, 
+dimana semua komponen bekerja bersama dalam satu proses. Contoh nyata bisa seperti aplikasi desktop tradisional. 
+Sebaliknya, microservices membagi aplikasi menjadi banyak layanan kecil yang bekerja secara independen. 
+Contohnya seperti aplikasi e-commerce besar, dimana setiap layanan (User, Payment, Inventory) berjalan secara terpisah.
+
+4. Inversion of Control (IoC) dan Dependency Injection: IoC adalah prinsip di mana urutan kontrol program dibalik, 
+jadi alih-alih aplikasi mengontrol flow, kontrol tersebut diambil alih oleh framework. Dependency Injection adalah salah satu cara menerapkan IoC, 
+di mana objek tidak membuat dependencies mereka sendiri, tapi dependencies itu "disuntikkan" atau di-supply oleh external system.
+
+5. Java programming dan Spring framework khususnya spring-boot: 
+Java adalah bahasa pemrograman yang serbaguna dan bisa digunakan untuk berbagai jenis aplikasi, mulai dari aplikasi mobile hingga server backend. 
+Spring adalah framework Java yang memudahkan kita membuat aplikasi enterprise. Spring Boot adalah bagian dari Spring yang membuat konfigurasi
+awal aplikasi lebih mudah, membantu kita memfokuskan diri pada pengembangan aplikasi, bukan setting-up environment.
