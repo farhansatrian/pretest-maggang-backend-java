@@ -19,6 +19,9 @@ public class Cart implements Serializable {
     private String id;
     @JoinColumn
     @ManyToOne
+    private Product product;
+    @JoinColumn
+    @ManyToOne
     private Customer customer;
     private Double Quantity;
     private BigDecimal price;

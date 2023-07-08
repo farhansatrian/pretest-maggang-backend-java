@@ -7,10 +7,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-
+@NoArgsConstructor
 public class Customer implements Serializable {
 
     @Id
@@ -23,5 +24,9 @@ public class Customer implements Serializable {
     private String phone;
     private String roles;
     private Boolean isActive;
+
+    public Customer(String username) {
+        this.id = username;
+    }
 
 }
